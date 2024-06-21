@@ -41,8 +41,8 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.width', 500)
 
 # VERİ SETİ OKUTMA
-train_df = pd.read_csv("/Users/ahmetbozkurt/Desktop/House_Precies_Regression/house_dataset/train.csv")
-test_df = pd.read_csv("/Users/ahmetbozkurt/Desktop/House_Precies_Regression/house_dataset/test.csv")
+train_df = pd.read_csv("train.csv")
+test_df = pd.read_csv("test.csv")
 
 # İki dataframe'i tek bir dataframe olarak birleştiriyorum.# İki dataframe'i tek bir dataframe olarak birleştiriyorum.
 df = pd.concat([train_df, test_df], ignore_index=True)
